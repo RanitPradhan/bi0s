@@ -1,0 +1,52 @@
+<html>
+<body>
+	<header>
+		<h1>Best Pizza Ever!</h1>
+		<h3>Come and get some, homie.<h3>
+	</header>
+	
+	<main>
+	
+		<section id="contact-form">
+			<h2>Place Order</h2>
+			<from method="GET" action="place-order.php">
+                <h4>Delivery</h4>                  
+                <input name="deliveryMethod" type="radio" value="delivery" />Delivery <br />
+                <input name="deliveryMethod" type="radio" value="pickup" />Pickup <br> <br><br />
+
+
+
+			   <input name="address1" placeholder="Address Line 1" class="lg-input" /><br />
+			   <input name="address2" placeholder="Address Line 1" class="lg-input" /><br />
+			
+			
+			   <input name="city" placeholder="City" class="sm-input" /><br>
+			   <input name="state" placeholder="State" class="sm-input" /><br>
+               <input name="zip" placeholder="Zip Code" class="sm-input" /><br>
+               
+               <br> <br> <br>
+                <!Select added>
+               <h4>Size</h4>
+               <select name="size">
+                   <option value="12">12" - $13.99 </option>
+                   <option value="16">16" - $16.99 </option>
+                   <option value="18">18" - $19.99 </option> 
+               </select>
+			   
+			   <br>
+			   <h4>Ingredients</h4>
+			   <input name="pepperoni" type="checkbox" /> Pepperoni <br>
+			   <input name="salami" type="checkbox" /> Salami <br>
+			   <input name="bacon" type="checkbox" /> Bacon <br>
+			   <input name="sausage" type="checkbox" /> Italian Sausage <br>
+			   <input name="peppers" type="checkbox" /> Green Peppers <br>
+               <br> <br>
+
+               <!Button added>
+              
+               <button type="submit">Place Order</button>
+			</form>
+			
+	</main>
+</body>
+</html>
