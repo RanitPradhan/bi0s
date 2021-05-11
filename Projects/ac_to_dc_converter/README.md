@@ -1,6 +1,6 @@
-# ac to dc converter
+# AC to DC converter
 ### Components:-
-1. main ac(~240V) to 12V ac transformer 
+1. Main ac(~240V) to 12V ac transformer 
 2. 1N4007 diode(4 pc)
 3. 1000uF Electrolytic capacitor with the 25V rating.
 4. Few single strand wires
