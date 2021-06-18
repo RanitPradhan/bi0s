@@ -1,1 +1,1 @@
-# Hack@Sec 21
+# [Hack@Sec 21] (https://hackatevent.org/hacksec21/)
