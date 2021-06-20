@@ -7,3 +7,4 @@
 You can think of an FPGA as a blank slate. By itself an FPGA does nothing. It is up to you (the designer) to create a configuration file, often called a bit file, for the FPGA. Once loaded the FPGA will behave like the digital circuit you designed!
 For more abot FPGA go to this [link](https://alchitry.com/blogs/tutorials/what-is-an-fpga)
 </details>
+<summary> Verilog Operators </summary>
