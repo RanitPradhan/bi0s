@@ -3,7 +3,7 @@
 
 | CTF           | link                                                         |
 |---------------|--------------------------------------------------------------|
-| ABCTF         | [2016](ABCTF-2016/writeup.md) |
+| ABCTF         | [2016](https://github.com/RanitPradhan/bi0s/tree/master/CTFs/documents/Hack%40Sec_21) |
 | adCTF         | [2014](adCTF2014/writeup.md) |
 | Advent of Code| [2017](AdventOfCode-2017/writeup.md) |
 | Angstrom CTF  | [2016](angstromCTF_2016/writeup.md) |
