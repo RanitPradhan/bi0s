@@ -1,0 +1,23 @@
+Obedient Cat [General Skills]
+picoCTF{s4n1ty_v3r1f13d_4a2b35fd}
+
+Mod 26 [Cryptography]
+picoCTF{next_time_I'll_try_2_rounds_of_rot13_hWqFsgzu}
+
+Nice netcat...[General Skills]
+picoCTF{g00d_k1tty!_n1c3_k1tty!_3d84edc8}
+Using Dec to ASCII converter
+
+Wave a flag [General Skills]
+picoCTF{b1scu1ts_4nd_gr4vy_6635aa47}
+steps:- chmod +x warm > ./warm -h
+
+------------------------------------------------------------------------------------------------------------------------------
+Part 1 >>> Reverse Engg
+
+Transformation
+Decimal:- 28777 25455 17236 18043 12598 24418 26996 29535 26990 29556 13108 25695 28518 24376 24421 14128 13154 13368 13949
+picoCTF{16_bits_inst34d_of_8_e703b486}                                                                                                         
+
+crackme-py
+picoCTF{1|\/|_4_p34|\|ut_a79b6c2d}
