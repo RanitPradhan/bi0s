@@ -1,0 +1,152 @@
+
+
+Solved:- 
+
+1. grep 2 
+
+Question:- This one is a little bit harder. Can you find the flag in /problems/grep-2_4_06c2058761f24267033e7ca6ff9d9144/files on the shell server? Remember, grep is your friend.
+
+flag:- picoCTF{grep_r_and_you_will_find_036bbb25}
+
+[using pico shell online]
+
+
+
+2. Aca-Shell-A
+
+
+
+3.Client Side is Still Bad (Web Exploitation)
+
+view source code
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Reversing Warmup 1 Reversing 
+
+picoCTF{welc0m3_t0_r3VeRs1nG}
+
+36356
+
+2018shell.picoctf.com
+
+
+
+net cat 
+
+ViperRanit007@pico-2018-shell:~$ nc 2018shell.picoctf.com 36356
+
+picoCTF{NEtcat_iS_a_NEcESSiTy_9454f3e0} 
+
+
+
+strings
+
+/problems/strings_4_40d221755b4a0b134c2a7a2e825ef95
+
+ViperRanit007@pico-2018-shell:/problems/strings_4_40d221755b4a0b134c2a7a2e825ef95f$ strings strings | grep pico
+
+picoCTF{sTrIngS_sAVeS_Time_d3ffa29c}
+
+--------------------------------------------------------------------------------------------------------------------------
+
+pipe
+
+2018shell.picoctf.com 44310
+
+ViperRanit007@pico-2018-shell:~$ nc 2018shell.picoctf.com 44310 | grep pico                                                
+
+picoCTF{almost_like_mario_a13e5b27}
+
+
+
+Inspect Me
+
+http://2018shell.picoctf.com:47428/
+
+picoCTF{ur_4_real_1nspect0r_g4dget_e96dd105}
+
+
+
+Logon
+
+http://2018shell.picoctf.com:37861/
+
+Flag: picoCTF{l0g1ns_ar3nt_r34l_a280e12c}
+
+See the video:- https://youtu.be/YYkGASuQ76E
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+assembly-0
+
+Flag: 0xf2
+
+https://youtu.be/sLsgSC6ViS8
+
+
+
+buffer overflow 0
+
+./vuln AAAAAAAAAAAAAAAAAAAAAA
+
+Flag:- picoCTF{ov3rfl0ws_ar3nt_that_bad_5d8a1fae}                                                                                 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+caesar cipher 1
+
+cat ciphercode -> decode online the value of the flag
+
+Flag:-picoCTF{justagoodoldcaesarcipherobyujeez}
+
+
+
+environ 
+
+printenv
+
+Flag:- picoCTF{eNv1r0nM3nT_v4r14Bl3_fL4g_3758492}
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+hertz 
+
+using:- https://www.guballa.de/substitution-solver
+
+Flag:-substitution_ciphers_are_solvable_cdilgndlnp
+
+
+
+hex editor
+
+strings hex_editor.jpg
+
+Flag:- picoCTF{and_thats_how_u_edit_hex_kittos_dF817ec5}
+
+------------------------------------------------------------------------------------------------------------------------------
+Truly an Artist
+read metadata- (googling)
+Flag:- 
+picoCTF{look_in_image_788a182e}
+------------------------------------------------------------------------------------------------------------------------------
+assembly-1
+https://www.youtube.com/watch?v=PrlJFfYQunU
+
+Flag:- 0x161
+
+assembly-2
+https://www.youtube.com/watch?v=oqw96BPx1u4
+Flag:- 0x129
+
+be-quick-or-be-dead-1 
+gdb ./be-quick-or-be-dead-1  
+break main
+run
+call get_key()
+call print_flag()
+
+Flag:- picoCTF{why_bother_doing_unnecessary_computation_402ca676}
+------------------------------------------------------------------------------------------------------------------------------
