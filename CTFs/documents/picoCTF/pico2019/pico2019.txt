@@ -1,0 +1,57 @@
+Warmed Up [General Skills]
+flag{}
+
+Lets Warm Up [General Skills]
+flag{}
+
+2Warm [General Skills]
+flag{101010} 
+
+Glory of the Garden [Forensics]
+picoCTF{more_than_m33ts_the_3y36BCA684D}
+
+Insp3ct0r [Web Exploitation]
+picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?9df7e69a}
+
+The Numbers [Cryptography]
+16 9 3 15 3 20 6{20 8 5 14 21 13 2 5 18 19 13 1 19 15 14}
+PICOCTF{THENUMBERSMASON}
+---------------------------------------------------------------------------------
+practice-run-1 [Binary Exploitation]
+picoCTF{g3t_r3adY_2_r3v3r53}
+
+handy-shellcode [Binary Exploitation]
+picoCTF{h4ndY_d4ndY_sh311c0d3_5843b402}
+----------------------------------------------------------------------------------
+unzip [Forensics]
+picoCTF{unz1pp1ng_1s_3a5y}
+
+vault-door-training [Reverse Engineering]
+picoCTF{w4rm1ng_Up_w1tH_jAv4_3b500738c12}
+
+13 [Cryptography]
+picoCTF{not_too_bad_of_a_problem}
+
+Bases [General Skills]
+Using Bases online decoder
+picoCTF{l3arn_th3_r0p35}
+----------------------------------------------------------------------------------
+Easy1 [Cryptography]
+Decoder online:- https://www.dcode.fr/vigenere-cipher
+picoCTF{CRYPTOISFUN}
+
+First Grep [General Skills]
+command:- grep picoCTF file
+picoCTF{grep_is_good_to_find_things_bf6aec61}
+
+Resources  [General Skills ]
+picoCTF{r3source_pag3_f1ag}
+
+caesar [Cryptography]
+picoCTF{crossingtherubicongysimakx}
+
+dont-use-client-side [Web Exploitation ]
+picoCTF{no_clients_plz_ce22dc}
+
+logon [Web Exploitation ]
+picoCTF{th3_c0nsp1r4cy_l1v3s_6679fcb5}
