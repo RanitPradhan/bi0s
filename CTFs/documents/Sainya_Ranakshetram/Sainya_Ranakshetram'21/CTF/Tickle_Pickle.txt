@@ -1,0 +1,2 @@
+## name is fine but the password type is not correct 
+## It suppose to come in bullet or asteric format eg. ******
