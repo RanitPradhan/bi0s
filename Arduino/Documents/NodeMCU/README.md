@@ -2,5 +2,5 @@
 ## Linux
 ### Setup NodeMCU
 `Error: cannot access dev/ttyUSB0` </br>
-Solution: ```sudo usermod -a -G dialout username```
+Solution: ```sudo usermod -a -G dialout username``` </br>
 To get username you can type `whoami` in linux terminal
