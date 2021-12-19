@@ -10,5 +10,5 @@
 - [Click here](https://github.com/esp8266/Arduino) to follow the setup for ESP8266 in Arduino IDE platform.
 - [Click here](https://github.com/RanitPradhan/bi0s/blob/master/Arduino/Documents/NodeMCU/ESP8266/get_ip_mac_1.ino) to get the code I've used for getting IP and mac address of client/clients connected with ESP8266.
 - After compiling and uploading the code to my ESP8266 module I've turnd on my Wi-fi in my mobile.
-- <img src = "https://github.com/RanitPradhan/bi0s/blob/master/Arduino/Documents/NodeMCU/ESP8266/files/NodeMCU_wifi.jpg" height = "200">
+- <img src = "https://github.com/RanitPradhan/bi0s/blob/master/Arduino/Documents/NodeMCU/ESP8266/files/NodeMCU_wifi.jpg" height = "300">
 - Now I can able to see the same wifi name which I've written in `ssid` section in the code. So, I gave the same password which I've given in `pass` of the code to connect with the ESP8266 module.
