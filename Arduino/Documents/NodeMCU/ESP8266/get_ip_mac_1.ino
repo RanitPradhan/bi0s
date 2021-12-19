@@ -10,9 +10,9 @@ extern "C" {
 }
 
 /* configuration  wifi */
-  const char* ssid = "myESP8266";
-  const char* pass = "ranit007";
-
+  const char* ssid = "myESP8266"; //write a ssid or userid
+  const char* pass = "ranit007"; // write a password 
+ 
 void setup() {
   delay(1000);
   Serial.begin(115200);
@@ -23,7 +23,7 @@ void setup() {
   
   IPAddress myIP = WiFi.softAPIP();
   
-  Serial.print("AP IP address: ");
+  Serial.print("AP IP address: "); //Serially print the IP addresses in serial monitor
   Serial.println(myIP);
 }
 
@@ -50,7 +50,7 @@ void client_status() {
   
     while (stat_info != NULL) {
     
-      ipv4_addr *IPaddress = &stat_info->ip;
+      ipv4_addr *IPaddress = &stat_info->ip; 
       address = IPaddress->addr;
       
       Serial.print("client= ");
