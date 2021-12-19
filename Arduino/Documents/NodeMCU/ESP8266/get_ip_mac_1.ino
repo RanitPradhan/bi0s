@@ -11,7 +11,7 @@ extern "C" {
 
 /* configuration  wifi */
   const char* ssid = "myESP8266"; //write a ssid or userid
-  const char* pass = "ranit007"; // write a password 
+  const char* pass = "password"; // write a password 
  
 void setup() {
   delay(1000);
