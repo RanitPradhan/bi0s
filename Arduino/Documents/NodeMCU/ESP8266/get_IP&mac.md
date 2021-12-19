@@ -14,6 +14,7 @@
 - Now I can able to see the same wifi name which I've written in `ssid` section in the code. So, I gave the same password which I've given in `pass` of the code to connect with the ESP8266 module.
 
 ### Results: 
+From the serial monitor of Arduino IDE we can able to see the output status of the IP and MAC addess of the client/clients.
 #### When one device is connected
 
 <img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/clint1.png"> <br>
