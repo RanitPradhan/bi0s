@@ -12,12 +12,10 @@ WiFiServer server(80);
 String header;
 
 // Auxiliar variables to store the current output state
-String output5State = "off";
-String output4State = "off";
+String outputState = "off";
 
 // Assign output variables to GPIO pins
-const int output5 = 16;
-const int output4 = 4;
+const int output= 16;
 
 // Current time
 unsigned long currentTime = millis();
@@ -29,12 +27,9 @@ const long timeoutTime = 2000;
 void setup() {
   Serial.begin(115200);
   // Initialize the output variables as outputs
-  pinMode(output5, OUTPUT);
-  pinMode(output4, OUTPUT);
+  pinMode(output, OUTPUT);
   // Set outputs to LOW
-  digitalWrite(output5, LOW);
-  digitalWrite(output4, LOW);
-
+  digitalWrite(output, LOW);
   // Connect to Wi-Fi network with SSID and password
   Serial.print("Connecting to ");
   Serial.println(ssid);
@@ -79,20 +74,12 @@ void loop(){
             // turns the GPIOs on and off
             if (header.indexOf("GET /16/on") >= 0) {
               Serial.println("GPIO 16 on");
-              output5State = "on";
-              digitalWrite(output5, LOW);
+              outputState = "on";
+              digitalWrite(output, LOW);
             } else if (header.indexOf("GET /16/off") >= 0) {
               Serial.println("GPIO 16 off");
-              output5State = "off";
-              digitalWrite(output5, HIGH);
-            } else if (header.indexOf("GET /4/on") >= 0) {
-              Serial.println("GPIO 4 on");
-              output4State = "on";
-              digitalWrite(output4, HIGH);
-            } else if (header.indexOf("GET /4/off") >= 0) {
-              Serial.println("GPIO 4 off");
-              output4State = "off";
-              digitalWrite(output4, LOW);
+              outputState = "off";
+              digitalWrite(output, HIGH);
             }
             
             // Display the HTML web page
@@ -110,22 +97,15 @@ void loop(){
             client.println("<body><h1>ESP8266 Web Server</h1>");
             
             // Display current state, and ON/OFF buttons for GPIO 16  
-            client.println("<p>GPIO 16 - State " + output5State + "</p>");
-            // If the output5State is off, it displays the ON button       
-            if (output5State=="off") {
+            client.println("<p>GPIO 16 - State " + outputState + "</p>");
+            // If the outputState is off, it displays the ON button       
+            if (outputState=="off") {
               client.println("<p><a href=\"/16/on\"><button class=\"button\">ON</button></a></p>");
             } else {
               client.println("<p><a href=\"/16/off\"><button class=\"button button2\">OFF</button></a></p>");
             } 
                
-            // Display current state, and ON/OFF buttons for GPIO 4  
-            client.println("<p>GPIO 4 - State " + output4State + "</p>");
-            // If the output4State is off, it displays the ON button       
-            if (output4State=="off") {
-              client.println("<p><a href=\"/4/on\"><button class=\"button\">ON</button></a></p>");
-            } else {
-              client.println("<p><a href=\"/4/off\"><button class=\"button button2\">OFF</button></a></p>");
-            }
+
             client.println("</body></html>");
             
             // The HTTP response ends with another blank line
