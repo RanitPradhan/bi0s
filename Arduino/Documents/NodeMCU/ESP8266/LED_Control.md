@@ -9,7 +9,7 @@ To control ON/OFF state of a LED using ESP8266 module I've undergone the followi
 - So, I've browsed that web address from my laptop and mobile as well. Both were connected with same hotspot. 
 - <img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/web_server_laptop.png" height = 250>
 - <img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/web_server_mobile.jpeg" height = 250>
-- Here I'm trying to glow the inbuilt LED only which is **GPIO pin 16**
+- Here I'm trying to glow the inbuilt LED only which is connected with **GPIO pin 16**
 
 ### Result:
 Checkout the outputs 
