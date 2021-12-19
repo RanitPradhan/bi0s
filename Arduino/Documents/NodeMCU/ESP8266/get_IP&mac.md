@@ -16,7 +16,7 @@
 ### Results: 
 #### When one device is connected
 
-<img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/clint1.png" height= "500"> <br>
+<img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/clint1.png"> <br>
 #### When two devices are connected
 
-<img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/clint2.png" height= "500"> 
+<img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/clint2.png"> 
