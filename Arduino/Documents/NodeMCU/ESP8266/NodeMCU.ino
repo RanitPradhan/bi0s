@@ -3,7 +3,7 @@
 
 // Replace with your network credentials
 const char* ssid     = "OPPO F19 Pro+";
-const char* password = "ranit007";
+const char* password = "password";
 
 // Set web server port number to 80
 WiFiServer server(80);
