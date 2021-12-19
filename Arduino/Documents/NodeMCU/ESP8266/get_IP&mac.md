@@ -12,3 +12,11 @@
 - After compiling and uploading the code to my ESP8266 module I've turnd on my Wi-fi in my mobile.
 - <img src = "https://github.com/RanitPradhan/bi0s/blob/master/Arduino/Documents/NodeMCU/ESP8266/files/NodeMCU_wifi.jpg" height = "300">
 - Now I can able to see the same wifi name which I've written in `ssid` section in the code. So, I gave the same password which I've given in `pass` of the code to connect with the ESP8266 module.
+
+### Results: 
+#### When one device is connected
+
+<img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/clint1.png" height= "500"> <br>
+#### When two devices are connected
+
+<img src = "https://raw.githubusercontent.com/RanitPradhan/bi0s/master/Arduino/Documents/NodeMCU/ESP8266/files/clint2.png" height= "500"> 
