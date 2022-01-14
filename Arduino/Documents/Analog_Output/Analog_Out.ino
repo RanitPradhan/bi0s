@@ -1,4 +1,4 @@
-static int LED=3;
+const int LED=3;
 void setup() {
   // put your setup code here, to run once:
 pinMode(LED,OUTPUT);
