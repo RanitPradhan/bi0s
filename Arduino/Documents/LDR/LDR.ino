@@ -9,7 +9,7 @@ Serial.begin(9600);
 void loop() {
   // put your main code here, to run repeatedly:
 input_val = analogRead(LDR);
-Serial.print("R value is = ");
+Serial.print("LDR value is = ");
 Serial.println(input_val);
 delay(1000);
 }
