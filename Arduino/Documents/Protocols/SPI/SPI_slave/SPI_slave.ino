@@ -24,18 +24,6 @@ void setup (void) {
    //indx = 0; // buffer empty
    //SPI.attachInterrupt(); // turn on interrupt
 }
-/*
-ISR (SPI_STC_vect) // SPI interrupt routine 
-{ 
-   byte c = SPDR; // read byte from SPI Data Register
-   if (indx < sizeof buff) 
-   {
-      buff [indx++] = c; // save data in the next index in the array buff
-      if (c == '\r') //check for the end of the word
-      process = true;
-   }
-}
-*/
 
 unsigned short Read_data(void){
   union{
