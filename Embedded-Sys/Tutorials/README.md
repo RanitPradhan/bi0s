@@ -17,3 +17,7 @@
 - ✔️<B>Day 7</B> - Switch ,Relay,
 - ✔️<B>Day 8</B> - UART,SPI
 - ✔️<B>Day 9</B> - LCD,IIC
+
+> Lab 1
+```8051 Mini Project-Bluetooth based Home automation(Project)```
+ 
