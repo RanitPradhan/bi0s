@@ -1,6 +1,7 @@
 # Embedded C 
 ## Roadmap
 
+> Topics
 - Introduction 
 - Data types and variables, Your first C Program
 - Address Variables and Storage Classes
